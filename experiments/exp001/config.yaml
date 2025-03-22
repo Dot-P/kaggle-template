@@ -3,15 +3,3 @@ project: Competition-Name
 experiment_name: exp001
 seed: 42
 n_spilits: 5
-fold: 1
-drop_features: []
-cat_features: []
-
-# LightGBM parameters
-lgbm_params:
-  objective: regression
-  metric: rmse
-  learning_rate: 0.01
-  n_estimators: 10000
-  stopping_rounds: 20
-  log_evaluation: 100
